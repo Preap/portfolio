@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://preap.github.io/portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Nasko",
+  "license": "ISC",
+  "dependencies": {
+    "ghpages": "0.0.10",
+    "node-sass": "^4.11.0",
+    "sass": "^1.15.2"
+  }
+}
