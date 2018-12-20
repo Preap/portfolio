@@ -1,5 +1,5 @@
-$primary-color: rgb(38, 16, 59);
-$secondary-color: #fdef27;
+$primary-color: #444;
+$secondary-color: #8be069;
 $show-home-image: true;
 $home-image: url(../img/keyboard.jpg);
 $portrait-image: url(../img/port2BW.jpg);
@@ -32,7 +32,7 @@ $background-oppacity: 0.9;
 }
 
 //set text color
-@function set-text-color($color) {
+@function set-text-color($color) {  
   @if (lightness($color) > 40) {
     @return #000;
   } @else {

@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #190b27;
+    background: #373737;
     list-style: none;
     transform: translate3d(100%, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #26103b;
+    background: #444;
     transform: translate3d(-100%, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,7 +57,7 @@
       height: 250px;
       background: url(../img/port2BW.jpg);
       border-radius: 50%;
-      border: solid 3px #fdef27;
+      border: solid 3px #8be069;
       opacity: 1; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -75,10 +75,10 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #fdef27;
+      color: #8be069;
       transition: all 0.5s ease-out; }
     .menu .nav-link.current {
-      color: #fdef27; }
+      color: #8be069; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.15s; }
@@ -96,7 +96,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #26103b;
+  background: #444;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(38, 16, 59, 0.9); }
+      background: rgba(68, 68, 68, 0.9); }
 
 h1,
 h2,
@@ -130,7 +130,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(43, 18, 67, 0.5); }
+    background: rgba(73, 73, 73, 0.5); }
 
 a {
   color: #fff;
@@ -142,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #fdef27; }
+  color: #8be069; }
 
 main {
   padding: 4rem;
@@ -152,7 +152,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #fdef27;
+        color: #8be069;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -168,7 +168,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #fdef27 3px solid; }
+    border: #8be069 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -179,9 +179,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #33154f;
+    background: #585858;
     padding: 0.5rem;
-    border-bottom: #fdef27 5px solid; }
+    border-bottom: #8be069 5px solid; }
 
 .projects {
   display: grid;
@@ -192,7 +192,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #fdef27;
+      border-color: #8be069;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -209,7 +209,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #fdef27;
+      background: #8be069;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -220,7 +220,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #fdef27;
+    background: #8be069;
     color: #000;
     transition: all 0.5s ease-out; }
 
@@ -229,13 +229,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #a671d9;
+  background: #c4c4c4;
   color: #000; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #0c0513;
+  background: #2b2b2b;
   color: #fff;
   height: 60px; }
 
