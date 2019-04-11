@@ -11,6 +11,7 @@
   "author": "Nasko",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "ghpages": "0.0.10",
     "node-sass": "^4.11.0",
     "sass": "^1.15.2"
