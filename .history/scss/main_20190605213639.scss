@@ -199,8 +199,9 @@ main {
   height: 60px;
 }
 
-.project-description {
-  text-align: center;
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem;
 }
 
 @import "mobile";

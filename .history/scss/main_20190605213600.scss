@@ -199,8 +199,11 @@ main {
   height: 60px;
 }
 
-.project-description {
-  text-align: center;
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: $secondary-color 3px solid;
 }
 
 @import "mobile";
